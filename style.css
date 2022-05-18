@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Neonderthaw&family=Open+Sans:wght@300&family=Roboto+Condensed:ital@0;1&family=Roboto:ital,wght@0,100;1,100;1,900&display=swap');
- 
-*{
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 
 }
 
 
 body {
-    background-image: url(/img/background.jpg);
+    background-image: url(img/background.jpg);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: cover ;
-    font-family:'Roboto', sans-serif;
-    
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .nav_box {
@@ -49,19 +49,19 @@ nav .logo {
     align-items: center;
     height: 72px;
     margin: 30px;
-}         
-    
+}
+
 .logo {
 
     transition: all .2s ease-in-out;
-    
+
 }
 
 
-.logo a:hover { 
+.logo a:hover {
 
     transform: scale(1.1);
- }
+}
 
 
 .nav_items li {
@@ -76,13 +76,13 @@ nav .logo {
 
     color: rgba(0, 0, 0, 1);
     font-size: 24px;
-    font-family:'Open Sans', sans-serif; 
-    text-decoration: none ;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
     border-radius: 8px;
     padding: 5px 10px;
-    display:inline-block ;
-    
-    
+    display: inline-block;
+
+
 }
 
 .nav_items li a:hover {
@@ -95,12 +95,12 @@ nav .logo {
 
 
 .header_container {
-    
+
     height: calc(100vh - 72px);
     display: flex;
     align-items: center;
-    margin:0 auto;
-    
+    margin: 0 auto;
+
 
 }
 
@@ -110,8 +110,8 @@ nav .logo {
 
     align-items: center;
     display: flex;
-    margin:0 auto;
-    
+    margin: 0 auto;
+
 }
 
 
@@ -129,14 +129,14 @@ header h1 {
 
 
 header p {
-    
+
     font-weight: 700;
     font-style: normal;
     font-size: 24px;
     line-height: 38px;
     color: rgb(49, 47, 47);
     width: 418px;
-    
+
 }
 
 .last_p {
@@ -146,7 +146,7 @@ header p {
     font-size: 26px;
     color: rgb(49, 47, 47);
     margin-bottom: 48px;
-    
+
 }
 
 
@@ -154,25 +154,25 @@ header p {
 header a {
 
     color: rgb(250, 246, 246);
-    font-family:'Roboto Condensed', sans-serif  ;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 24px;
-    text-decoration:none;
+    text-decoration: none;
     background: rgb(241, 136, 16);
     border-radius: 20px;
     padding: 12px 48px;
-    display:inline-block ;
-    
+    display: inline-block;
+
 
 }
 
 header {
 
     transition: all .2s ease-in-out;
-    
+
 }
 
 
-header a:hover { 
+header a:hover {
 
     transform: scale(1.1);
 }
@@ -183,21 +183,19 @@ header a:hover {
 .social_icons {
     position: absolute;
     align-self: flex-end
-    
-    
-}    
+}
 
 .social_icons a {
-    
+
     margin: 0 14px;
     border-radius: 8px;
     padding: 5px 15px;
-    display:inline-block ;
-    
+    display: inline-block;
+
 
 }
 
-.social_icons a:hover { 
+.social_icons a:hover {
 
     transform: translateY(-8px);
 
@@ -207,17 +205,17 @@ header a:hover {
 .iwo_foto img:hover {
 
     transform: rotate(-6deg);
-    
+
 }
 
 
 
- .iwo_foto {
+.iwo_foto {
 
     display: inline-block;
     margin: 50px;
     display: flex;
     align-items: center;
-    box-shadow: 2px 1px 24px rgba(2, 2, 2, 3); 
+    box-shadow: 2px 1px 24px rgba(2, 2, 2, 3);
 
-}  
+}
